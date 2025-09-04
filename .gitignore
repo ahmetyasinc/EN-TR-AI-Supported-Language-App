@@ -1,0 +1,27 @@
+# venv & env
+.venv/
+.env
+.env.*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+# IDE
+.vscode/
+.idea/
+# Build artifacts
+build/
+dist/
+*.spec
+# OS
+.DS_Store
+Thumbs.db
+# Databases
+*.sqlite3
+*.db
+# Qt/PySide cache
+*.qmlc
+*.jsc

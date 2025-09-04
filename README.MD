@@ -116,30 +116,6 @@ python -m app.main
 
 Veriler SQLite’da tutulur. DB dosyası varsayılan olarak `app/vocab.sqlite3` (git’e dahil **değil**).
 
----
-
-## 🖼️ Ekran Görüntüsünü README’ye Ekleme
-
-1. Proje kökünde bir `docs/` klasörü oluşturun (yoksa):
-
-   ```bash
-   mkdir docs
-   ```
-2. Bu repodaki görseli bilgisayarınıza kaydedin ve `docs/screenshot.png` olarak yerleştirin.
-   (İsmi veya konumu değişirse README’deki görsel yolunu da güncelleyin.)
-3. Git’e ekleyin ve gönderin:
-
-   ```bash
-   git add docs/screenshot.png README.md
-   git commit -m "Add screenshot + README"
-   git push origin main
-   ```
-
-README’de görseli **göreli yol** ile çağırıyoruz:
-`![Uygulama ekran görüntüsü](docs/screenshot.png)`
-
----
-
 ## 🧰 Sorun Giderme
 
 * **DeepL 403 / yetki hatası** → `DEEPL_API_KEY` geçerli mi? Free anahtarlar genellikle `:fx` ile biter.
@@ -150,7 +126,7 @@ README’de görseli **göreli yol** ile çağırıyoruz:
 
 ---
 
-## 🛣️ Yol Haritası (opsiyonel)
+## 🛣️ Yol Haritası
 
 * Kelime tekrar planlayıcı (SRS)
 * Çoklu çeviri sağlayıcıları
